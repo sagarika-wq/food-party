@@ -74,16 +74,16 @@ def init_db():
     
     # Insert sample foods with image filenames
     sample_foods = [
-        ('Pizza', 'Delicious cheese pizza with fresh ingredients', 12.99, 'Pizza', 'pizza.png'),
-        ('Burger', 'Beef patty with cheese and veggies', 10.99, 'Burgers', 'burger.png'),
-        ('Fried Chicken', 'Crispy fried chicken pieces', 9.99, 'Chicken', 'fried-chicken.png'),
-        ('Sandwich', 'Fresh sandwich with layers of goodness', 8.99, 'Sandwiches', 'sandwich.png'),
-        ('Spring Roll', 'Crispy spring rolls with dipping sauce', 6.99, 'Appetizers', 'spring-roll.png'),
-        ('Chicken Roll', 'Tender chicken wrapped perfectly', 7.99, 'Rolls', 'chicken-roll.png'),
-        ('Momo', 'Steamed dumplings with filling', 8.49, 'Dumplings', 'momo.png'),
-        ('Spaghetti', 'Classic Italian spaghetti with sauce', 11.99, 'Pasta', 'spaghetti.png'),
-        ('Lasagna', 'Layered pasta with cheese and sauce', 13.99, 'Pasta', 'lasagna.png'),
-        ('Ice Cream', 'Refreshing ice cream dessert', 4.99, 'Desserts', 'icecream.png'),
+        ('Pizza', 'Delicious cheese pizza with fresh ingredients', 120.99, 'Pizza', 'pizza.png'),
+        ('Burger', 'Beef patty with cheese and veggies', 100.99, 'Burgers', 'burger.png'),
+        ('Fried Chicken', 'Crispy fried chicken pieces', 190, 'Chicken', 'fried-chicken.png'),
+        ('Sandwich', 'Fresh sandwich with layers of goodness', 180.99, 'Sandwiches', 'sandwich.png'),
+        ('Spring Roll', 'Crispy spring rolls with dipping sauce', 160.99, 'Appetizers', 'spring-roll.png'),
+        ('Chicken Roll', 'Tender chicken wrapped perfectly', 170.99, 'Rolls', 'chicken-roll.png'),
+        ('Momo', 'Steamed dumplings with filling', 80.49, 'Dumplings', 'momo.png'),
+        ('Spaghetti', 'Classic Italian spaghetti with sauce', 110.99, 'Pasta', 'spaghetti.png'),
+        ('Lasagna', 'Layered pasta with cheese and sauce', 130.99, 'Pasta', 'lasagna.png'),
+        ('Ice Cream', 'Refreshing ice cream dessert', 140.99, 'Desserts', 'icecream.png'),
     ]
     
     for name, desc, price, category, image in sample_foods:
